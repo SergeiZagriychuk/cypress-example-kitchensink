@@ -3,7 +3,7 @@
   "reporter": "@zebrunner/javascript-agent-cypress",
     "reporterOptions": {
         "reportingServerHostname": "https://qps.zebrunner.com",
-        "reportingProjectKey": "DEF",
+        "reportingProjectKey": "CYP",
         "reportingRunEnvironment": "LOCAL",
         "reportingRunDisplayName": "multi-spec-tests",
         "reportingRunLocale": "en_US"
