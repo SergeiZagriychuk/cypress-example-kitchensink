@@ -20,3 +20,9 @@ module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
 }
+
+const zbrPlugin = require('@zebrunner/javascript-agent-cypress/lib/plugin')
+
+module.exports = (on, config) => {
+  zbrPlugin(on, config)
+}

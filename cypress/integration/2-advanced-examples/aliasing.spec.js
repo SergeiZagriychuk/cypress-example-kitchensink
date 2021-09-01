@@ -5,7 +5,7 @@ context('Aliasing', () => {
     cy.visit('http://localhost:8080/commands/aliasing')
   })
 
-  it('.as() - alias a DOM element for later use', () => {
+  it('.as() - alias a DOM element for later use', { 'owner': 'szagriychuk' }, () => {
     // https://on.cypress.io/as
 
     // Alias a DOM element for use later
