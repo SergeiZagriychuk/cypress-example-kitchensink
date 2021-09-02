@@ -73,6 +73,7 @@ pipeline {
         CYPRESS_RECORD_KEY = credentials('cypress-example-kitchensink-record-key')
         REPORTING_SERVER_ACCESS_TOKEN = credentials('zebrunner-qps-access-token')
         REPORTING_CI_RUN_ID = UUID.randomUUID().toString()
+        REPORTING_DEBUG_LOGGING = true
         // because parallel steps share the workspace they might race to delete
         // screenshots and videos folders. Tell Cypress not to delete these folders
         CYPRESS_trashAssetsBeforeRuns = 'false'
