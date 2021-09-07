@@ -5,7 +5,7 @@
         "reportingServerHostname": "https://qps.zebrunner.com",
         "reportingProjectKey": "CYP",
         "reportingRunEnvironment": "LOCAL",
-        "reportingRunDisplayName": "multi-spec-tests-parallel-ci",
+        "reportingRunDisplayName": "multi-spec-tests-parallel-local",
         "reportingRunLocale": "en_US"
     }
 }
